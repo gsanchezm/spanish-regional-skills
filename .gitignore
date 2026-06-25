@@ -1,0 +1,53 @@
+# ---- Sistemas operativos ----
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ---- Editores / IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ---- Node ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+
+# ---- Python (por si se agregan scripts de evaluación) ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ---- Artefactos de empaquetado de skills ----
+# Los .skill se generan al empaquetar; el código fuente vive en skills/
+*.skill
+dist/
+build/
+
+# ---- Workspaces de evaluación (resultados de pruebas locales) ----
+*-workspace/
+evals/results/
+
+# ---- Misceláneos ----
+.env
+.env.local
+*.log
